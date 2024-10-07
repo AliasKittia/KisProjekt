@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KisProjekt</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="icon" href="/-- DESIGN --/info-circle-fill.svg" type="image/x-icon">
+  <link rel="stylesheet" href="Kisprojekt.css">
+  <script src="KisProjekt.js" defer></script>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <div class="above">
+      <h1>Regisztrációs űrlap</h1>
+    </div>
+<!--<form action="" method="GET">-->
+    
+      <!-- Felhasználónév -->
+      <div class="form-group mb-3">
+        <label for="username">Felhasználónév:</label>
+        <div class="input-group">
+          <span class="input-group-text"><i class="bi bi-person"></i></span>
+          <input type="text" class="form-control" id="username" name="username" required>
+        </div>
+      </div>
+
+      <!-- Életkor -->
+      <div class="form-group mb-3">
+        <label for="age">Életkor:</label>
+        <div class="input-group">
+          <span class="input-group-text"><i class="bi bi-calendar"></i></span>
+          <select class="form-control" id="age" name="age">
+            <option value="18-25">18-25</option>
+            <option value="26-35">26-35</option>
+            <option value="36-45">36-45</option>
+            <option value="46-55">46-55</option>
+            <option value="56+">56+</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Nem -->
+      <div class="form-group mb-3">
+        <label for="gender">Nem:</label>
+        <div class="input-group">
+          <span class="input-group-text"><i class="bi bi-gender-ambiguous"></i></span>
+          <select class="form-control" id="gender" name="gender">
+            <option value="male">Férfi</option>
+            <option value="female">Nő</option>
+            <option value="other">Egyéb</option>
+          </select>
+        </div>
+      </div>
+
+      
+
+      <!-- Jelszó -->
+      <div class="form-group mb-3">
+        <label for="password">Jelszó:</label>
+        <div class="input-group">
+          <span class="input-group-text"><i class="bi bi-lock"></i></span>
+          <input type="password" class="form-control" id="password" name="password" required>
+          <button type="button" id="generatePassword" class="btn btn-outline-secondary">Jelszó generálása</button>
+        </div>
+      </div>
+
+      <!-- Jelszó megjelenítése -->
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" id="showPassword">
+        <label class="form-check-label" for="showPassword">Jelszó megjelenítése</label>
+      </div>
+
+      
+
+      <!-- Elküld gomb -->
+      <div class="form-group mb-3">
+        <button type="submit" class="btn btn-success">Elküld</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- JS GET értékek lekérése -->
+ <!--<script>
+    window.onload = function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const username = urlParams.get('username');
+      const age = urlParams.get('age');
+      const gender = urlParams.get('gender');
+      const password = urlParams.get('password');
+
+      console.log('Felhasználónév:', username);
+      console.log('Életkor:', age);
+      console.log('Nem:', gender);
+      console.log('Jelszó:', password);
+    }
+  </script>--> 
+</body>
+
+</html>

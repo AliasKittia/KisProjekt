@@ -1,0 +1,11 @@
+-- KISPROJEKT --
+
+-- Háttérszínek gradient: 00bfff -- 6adaff // c64eff -- 8d0fc9
+
+https://static.vecteezy.com/system/resources/previews/014/849/299/non_2x/light-blue-color-background-abstract-art-gradient-shapes-composition-llustration-10-eps-vector.jpg
+
+
+
+-- FavIcon -- <i class="bi bi-info-circle-fill"></i>
+
+-- Font -- https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Hand?classification=Handwriting&stylecount=4
